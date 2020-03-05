@@ -1,9 +1,24 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:orientation="vertical" android:layout_width="match_parent"
-    android:layout_height="match_parent">
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="10">
         <androidx.appcompat.widget.Toolbar
             android:layout_width="match_parent"
-            android:layout_height="?attr/actionBarSize">
+            android:layout_height="?attr/actionBarSize"
+            >
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="@string/title_the_movie"
+                android:gravity="center"
+                android:textSize="@dimen/txt_size_24sp"
+                android:layout_marginRight="@dimen/margin_txt_toolbar"
+                android:layout_marginLeft="@dimen/margin_txt_toolbar"
+                ></TextView>
         </androidx.appcompat.widget.Toolbar>
+
+
+
 </LinearLayout>

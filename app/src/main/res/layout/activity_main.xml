@@ -7,7 +7,7 @@
     android:weightSum="10">
         <androidx.appcompat.widget.Toolbar
             android:id="@+id/tb_main"
-            android:background="@color/blue"
+            android:background="null"
             android:layout_width="match_parent"
             android:layout_height="?attr/actionBarSize"
             >
@@ -16,7 +16,7 @@
                 android:layout_height="match_parent"
                 android:text="@string/title_the_movie"
                 android:gravity="center"
-                android:textColor="@color/white"
+                android:textColor="@color/red"
                 android:textSize="@dimen/txt_size_24sp"
                 android:layout_marginRight="@dimen/margin_txt_toolbar"
                 android:layout_marginLeft="@dimen/margin_txt_toolbar"

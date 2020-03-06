@@ -2,4 +2,9 @@
 <resources>
     <dimen name="margin_txt_toolbar">50dp</dimen>
     <dimen name="txt_size_24sp">24sp</dimen>
+    <dimen name="margin_default">10dp</dimen>
+    <dimen name="width_img">100dp</dimen>
+    <dimen name="height_img">120dp</dimen>
+    <dimen name="txt_size_20sp">20sp</dimen>
+
 </resources>
